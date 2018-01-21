@@ -1,0 +1,15 @@
+# Database settings.
+database:
+  driverClass: org.mariadb.jdbc.Driver
+  user: root
+  password:
+  url: jdbc:mariadb://localhost/calculator
+swagger:
+  resourcePackage: com.calculator.api.resource
+  uriPrefix: /api/v1
+  title: Calculator API Endpoints
+  description: This is the listing of all the API endpoints of Calculator back end. It lists resource details, operations supported, access methods and request/response format.
+server:
+  rootPath: /api/v1
+config:
+  appBaseUrl: http://localhost:8080/api/v1
